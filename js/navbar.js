@@ -34,7 +34,7 @@ let myNavbar = `<a class="navbar-brand " href="#" href="../index.html">
 <div class="collapse navbar-collapse affix" id="navbarSupportedContent">
   <ul class="navbar-nav mr-auto ulNavStyle">
     <li class="nav-item " id="tab-index">
-      <a class="btn btnNav rounded-pill" href="${inc1}">${inc}</a>
+      <a class="btn btnNav rounded-pill" href="/PlaticaloConPsicDanika/page/nosotros.html">${inc}</a>
     </li>
     <li class="nav-item " id="tab-nosotros">
       <a class="btn btnNav rounded-pill" href="${nos1}">${nos}</a>
