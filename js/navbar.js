@@ -79,11 +79,14 @@ window.addEventListener("scroll", function(){
 })
 
 //Item selected nav-bar
-const currentLocation = location.href;
+const currentLocation = window.location.pathname;
 const menuItem = document.querySelectorAll('a');
-const menuLenght = menuItem.length
-for (let i=0; i < menuLenght; i++){
-  if(menuItem[i].href === currentLocation){
-    menuItem[i].className = "active"
+
+menuItem.forEach(link => {
+  if (link.getAttribute("href").endsWith(currentLocation)) {
+    link.classList.add("active");
+  } else {
+    link.classList.remove("active");
   }
-}
+});
+
