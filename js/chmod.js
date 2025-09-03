@@ -13,8 +13,8 @@ let acerca =[
          },
       //-------------EMMANUEL-------------------
       {
-        src : `../img/fotos/Emmanuel.png`,
-        title: "Emmanuel",
+        src : `../img/fotos/francisco.png`,
+        title: "Francisco",
         desc : "Como persona organizada y con una gran motivación, soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar valores como los del compañerismo.",
         des2 : "Desarrollador Java FullStack",
         lk : `https://www.linkedin.com/in/egab/`,
