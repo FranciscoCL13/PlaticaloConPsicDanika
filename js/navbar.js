@@ -24,7 +24,7 @@ const reg = `Registrarse`;
 
 
 //Crear el navbar
-let myNavbar = `<a class="navbar-brand " href="#" href="../index.html">
+let myNavbar = `<a class="navbar-brand" href="${inc1}">
   <img src="${log}" alt="" width="150px">
 </a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -34,7 +34,7 @@ let myNavbar = `<a class="navbar-brand " href="#" href="../index.html">
 <div class="collapse navbar-collapse affix" id="navbarSupportedContent">
   <ul class="navbar-nav mr-auto ulNavStyle">
     <li class="nav-item " id="tab-index">
-      <a class="btn btnNav rounded-pill" href="/PlaticaloConPsicDanika/page/nosotros.html">${inc}</a>
+      <a class="btn btnNav rounded-pill" href="${inc1}">${inc}</a>
     </li>
     <li class="nav-item " id="tab-nosotros">
       <a class="btn btnNav rounded-pill" href="${nos1}">${nos}</a>
@@ -61,10 +61,10 @@ let myNavbar = `<a class="navbar-brand " href="#" href="../index.html">
             style="border-radius: 16px 1px 1px 16px">
             ${ing}
           </button>
-          <botton type="button" class="btn btnUserReg  my-2 my-sm-0" style="border-radius: 1px 16px 16px 1px"
+          <button type="button" class="btn btnUserReg  my-2 my-sm-0" style="border-radius: 1px 16px 16px 1px"
           onclick="location.href='${reg1}'">
             ${reg}
-          </botton>
+          </button>
         </form>
       </div>`
 
