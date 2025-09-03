@@ -24,7 +24,7 @@ const reg = `Registrarse`;
 
 
 //Crear el navbar
-let myNavbar = `<a class="navbar-brand" href="#">
+let myNavbar = `<a class="navbar-brand" href="${inc1}">
   <img src="${log}" alt="" width="150px">
 </a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
