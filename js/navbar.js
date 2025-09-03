@@ -79,11 +79,13 @@ window.addEventListener("scroll", function(){
 })
 
 //Item selected nav-bar
+//Item selected nav-bar
 const currentLocation = window.location.pathname;
-const menuItem = document.querySelectorAll('a');
+const menuItem = document.querySelectorAll('a'); // <- aquí defines los links
 
 menuItem.forEach(link => {
-  if (link.getAttribute("href").endsWith(currentLocation)) {
+  const linkPath = link.getAttribute("href");
+  if (linkPath === currentLocation) {
     link.classList.add("active");
   } else {
     link.classList.remove("active");
