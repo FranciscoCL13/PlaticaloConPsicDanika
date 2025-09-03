@@ -1,24 +1,24 @@
 //Declara los elementos del navbar
 //logo
-const log = `../img/baner.png`
+const log = `/PlaticaloConPsicDanika/img/baner.png`;
 //Enlaces
 const inc = `Inicio`;
-const inc1 = `index.html`;
+const inc1 = `/PlaticaloConPsicDanika/index.html`;
 const nos = `Nosotros`;
-const nos1 = `page/nosotros.html`;
+const nos1 = `/PlaticaloConPsicDanika/page/nosotros.html`;
 const ser = `Servicios`;
-const ser1 = `page/servicios.html`;
+const ser1 = `/PlaticaloConPsicDanika/page/servicios.html`;
 const age = `Agendar cita`;
-const age1 = `page/agendar.html`;
+const age1 = `/PlaticaloConPsicDanika/page/agendar.html`;
 const ayu = `Ayuda`;
-const ayu1 = `page/ayuda.html`;
+const ayu1 = `/PlaticaloConPsicDanika/page/ayuda.html`;
 const chm = `Chmod 777`;
-const chm1 = `page/chmod.html`;
+const chm1 = `/PlaticaloConPsicDanika/page/chmod.html`;
 const adm = `Administrador`;
-const adm1 = `page/admin.html`;
+const adm1 = `/PlaticaloConPsicDanika/page/admin.html`;
 //Botones INGRESAR REGISTRO
 const ing = `Ingresar`;
-const reg1 = `page/registrar.html`;
+const reg1 = `/PlaticaloConPsicDanika/page/registrar.html`;
 const reg = `Registrarse`;
 //Modal
 
